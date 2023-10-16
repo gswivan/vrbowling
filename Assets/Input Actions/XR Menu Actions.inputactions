@@ -1,0 +1,82 @@
+{
+    "name": "XR Menu Actions",
+    "maps": [
+        {
+            "name": "LeftControllerMenu",
+            "id": "b1c703be-6370-4a60-b444-d5fab845cac5",
+            "actions": [
+                {
+                    "name": "Show",
+                    "type": "Button",
+                    "id": "fe65f08d-69e8-4e24-8896-a427b0e194f6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a51cf0cc-21be-4ea9-b437-526d02da9dc5",
+                    "path": "<XRController>{LeftHand}/gripPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Show",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "RightControllerMenu",
+            "id": "61ec08b5-42c0-49db-a943-85a011f4e54c",
+            "actions": [
+                {
+                    "name": "Grab",
+                    "type": "Button",
+                    "id": "3c16d0e9-3d74-41dd-a2f1-6d8222a6f759",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Reset",
+                    "type": "Button",
+                    "id": "ccf1204a-b1dc-4fcf-9295-8f2d9cd1892b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "6e513b3b-eed6-4078-acbe-649f8a24833c",
+                    "path": "<XRController>{RightHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grab",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "06653d8e-a844-4652-8e07-7c65348943b1",
+                    "path": "<XRController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Reset",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
