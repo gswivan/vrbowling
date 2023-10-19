@@ -7,7 +7,6 @@ using UnityEngine;
 public class Ball : MonoBehaviour
 {
     public Rigidbody body;
-    public float factor;
 
     private Vector3 previousPosition;
     private Vector3 velocity;
@@ -37,7 +36,7 @@ public class Ball : MonoBehaviour
 
     private void Update()
     {
-        velocity = ((transform.position - previousPosition) * factor) / Time.deltaTime;
+        velocity = (transform.position - previousPosition) / Time.deltaTime;
         previousPosition = transform.position;
     }
 

@@ -46,7 +46,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   body: {fileID: 6940433127272034580}
-  factor: 1.5
 --- !u!1 &8753379514777561601
 GameObject:
   m_ObjectHideFlags: 0
@@ -139,7 +138,7 @@ SphereCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8753379514777561601}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 185a7e93c53cd3144bb6fff6916350a2, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
